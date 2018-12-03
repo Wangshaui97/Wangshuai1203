@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+<com.bawei.wangshuai181203.TitleBarView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+</com.bawei.wangshuai181203.TitleBarView>
+    <Button
+        android:id="@+id/putin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="最近搜索"
+        android:textColor="#000" />
+
+    <com.bawei.wangshuai181203.WeekgroupView
+        android:id="@+id/weekgroupview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="搜索热门"
+        android:textColor="#000"/>
+    <com.bawei.wangshuai181203.WeekgroupView
+        android:id="@+id/weekgroupview_rm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="清空历史"
+        />
+</LinearLayout>
